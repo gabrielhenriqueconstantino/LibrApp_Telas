@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
         <img 
           className="hero-image" 
-          src="/img/eicalouro.jpeg" 
+          src="/img/eicalouro.png" 
           alt="Soluções Digitais" 
         />
       </div>
