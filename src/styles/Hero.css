@@ -126,36 +126,6 @@
 
 @media (max-width: 768px) {
   .hero-section {
-    flex-direction: column; /* Para telas pequenas, empilha o conteúdo em coluna */
-    padding: 1rem;
-  }
-
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-
-  .hero-content p {
-    font-size: 1rem;
-  }
-
-  .hero-buttons {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .btn {
-    width: 100%;
-    text-align: center;
-  }
-
-  .hero-image {
-    display: flex; /* Esconde a imagem em telas pequenas */
-  }
-}
-
-/* Responsividade para a seção Hero (imagem e texto se ajustam em telas pequenas) */
-@media (max-width: 768px) {
-  .hero-section {
     flex-direction: column;
     padding: 1rem;
     height: auto;
@@ -167,6 +137,28 @@
     text-align: center;
   }
 
+  .hero-text {
+    order: 1; /* Texto vem primeiro */
+    max-width: 100%;
+  }
+
+  .hero-buttons {
+    order: 2; /* Botões vêm em seguida */
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2rem; /* Espaço antes da imagem */
+  }
+
+  .hero-image {
+    order: 3; /* Imagem vem por último */
+    display: block !important; /* Força a exibição */
+    width: 80%; /* Ajuste conforme necessário */
+    max-width: 300px; /* Limita o tamanho máximo */
+    margin: 0 auto; /* Centraliza */
+    margin-top: 2rem; /* Espaço acima da imagem */
+  }
+
   .hero-content h1 {
     font-size: 2rem;
   }
@@ -175,18 +167,8 @@
     font-size: 1rem;
   }
 
-  .hero-buttons {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-
   .btn {
     width: 100%;
     text-align: center;
-  }
-
-  .hero-image {
-    display: none; /* Oculta imagem em telas pequenas */
   }
 }
