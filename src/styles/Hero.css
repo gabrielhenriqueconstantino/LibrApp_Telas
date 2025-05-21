@@ -47,7 +47,7 @@
 }
 
 .hero-content h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -64,14 +64,16 @@
 }
 
 .hero-content h1 {
-  font-size: 3rem;
+  font-size: 2.9rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
 .hero-content p {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   margin-bottom: 2rem;
+  font-weight: 400;
+  font-family: 'Century Gothic', sans-serif;
 }
 
 .hero-buttons {
@@ -96,19 +98,20 @@
 }
 
 .btn-primary:hover {
-  background-color: #0043d3 !important;
+  background-color: #4f2279 !important;
 }
 
 .btn-secondary {
   background-color: transparent;
   border: 2px solid white;
-  color: #0d5aff;
-  border-color: #0d5aff;
+  color: #000000;
+  border-color: #8445be;
 }
 
 .btn-secondary:hover {
-  background-color: #0d5aff;
+  background-color: #4f2279;
   color: white;
+  border-color: black;
 }
 
 .hero-image {
@@ -146,7 +149,7 @@
   }
 
   .hero-image {
-    display: none; /* Esconde a imagem em telas pequenas */
+    display: flex; /* Esconde a imagem em telas pequenas */
   }
 }
 

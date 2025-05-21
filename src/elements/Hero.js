@@ -7,10 +7,10 @@ const Hero = () => {
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <div className="hero-text">
-          <h1>Transformando ideias em soluções digitais</h1>
-          <p>Especialistas em criar experiências digitais inovadoras para microempresas.</p>
+          <h1>O manual não oficial do calouro esperto</h1>
+          <p>Seu apoio inicial na universidade: informações úteis para organizar sua rotina e aproveitar melhor o início do curso.</p>
           <div className="hero-buttons">
-            <a href="/contact" className="btn btn-primary">Fale Conosco</a>
+            <a href="/contact" className="btn btn-primary">Navegue pela Athon</a>
             <a href="#about" className="btn btn-secondary">Saiba Mais</a>
           </div>
         </div>
