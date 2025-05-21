@@ -33,19 +33,19 @@ const Header = () => {
           <li>
             <NavLink to="/projects" onClick={() => setMenuOpen(false)}
               className={({ isActive }) => (isActive ? 'active' : '')}>
-              Projetos
+              Agenda
             </NavLink>
           </li>
           <li>
             <NavLink to="/blog" onClick={() => setMenuOpen(false)}
               className={({ isActive }) => (isActive ? 'active' : '')}>
-              Blog
+              Forum
             </NavLink>
           </li>
           <li>
             <NavLink to="/contact" onClick={() => setMenuOpen(false)}
               className={({ isActive }) => (isActive ? 'active' : '')}>
-              Contato
+              Atlética
             </NavLink>
           </li>
         </ul>
