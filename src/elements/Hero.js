@@ -20,6 +20,22 @@ const Hero = () => {
           alt="Soluções Digitais" 
         />
       </div>
+      <div className="virtual-assistant-container">
+  <div className="assistant-bubble">
+    <img src="/img/athena-icon.png" alt="Assistente Virtual" />
+  </div>
+  <div className="assistant-popup">
+    <div className="assistant-header">
+      <strong>Athena</strong>
+    </div>
+    <div className="assistant-body">
+      <p>Oi! Precisa de ajuda com a faculdade? 👋</p>
+    </div>
+</div>
+
+  </div>
+
+
     </section>
   );
 };
